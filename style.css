@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .image {
@@ -11,7 +12,6 @@ body {
 
 #welcome {
     position: absolute;
-    overflow: hidden;
     height: 800px;
     color: darkred;
     left: 0;
@@ -97,4 +97,13 @@ p {
 
 .link:hover {
     background-color: black;
+}
+html{
+    scroll-behavior:smooth; 
+} 
+a{
+    text-decoration: none;
+}
+.article:hover{
+    color:deepskyblue;
 }
