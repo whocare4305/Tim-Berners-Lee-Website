@@ -5,20 +5,13 @@ body {
 }
 
 .image {
-    width: 175px;
-    margin-bottom: 50px;
     border-radius: 50%;
 }
 
 #welcome {
     position: absolute;
-    height: 800px;
     color: darkred;
-    left: 0;
-    right: 0;
-    top: 0;
     bottom: 0;
-    opacity: 0.83;
     display: table;
     width: 100%;
     height: 100%;
@@ -60,10 +53,7 @@ h2 {
 }
 
 p {
-    max-width: 450px;
-    margin: 25px auto;
     font-size: 17px;
-    line-height: 1.3;
 }
 
 .div1 {
@@ -74,36 +64,54 @@ p {
 }
 
 .menu {
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    top:0px;
+    margin-top:0px;
     z-index: 10;
     font-family: 'Explora', cursive;
-    cursor: pointer;
+    width: 100%;
+    background-color:dodgerblue;
 }
 
 .link {
-    float: left;
-    color: crimson;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 33px;
     font-family: 'Explora', cursive;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold; 
 }
 
 .link:hover {
-    background-color: black;
+    font-size: 25px;
+    text-decoration: underline;
 }
 html{
     scroll-behavior:smooth; 
 } 
 a{
     text-decoration: none;
+    color:yellow;
+        text-shadow: 2px 2px firebrick;
 }
 .article:hover{
     color:deepskyblue;
+}
+#writings a{
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color:brown !important;
+}
+#contact{
+    background-color: blue;
+}
+#contact iframe{
+    width:100%;
+}
+.contact1 h3{
+    display:inline;
+}
+.contact1 a{
+    color:bisque;
+    text-shadow: none;
 }
